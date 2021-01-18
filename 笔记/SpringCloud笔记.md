@@ -10,7 +10,7 @@
 
 ![什么是服务注册](photos/什么是服务注册.png)
 
-![Eureka和Dubbo架构对比](E:\study_fighting\SpringCloud\脑图\SpringBoot脑图附件\photos\Eureka和Dubbo架构对比.png)
+![Eureka和Dubbo架构对比](photos\Eureka和Dubbo架构对比.png)
 
 #### · Eureka两组件
 
@@ -274,7 +274,7 @@ public class PaymentMain8001 {
 
 ###### eureka服务器
 
-![image-20201203182350669](E:\study_fighting\SpringCloud\脑图\SpringBoot脑图附件\photos\Eureka界面加入两个.png)
+![image-20201203182350669](photos\Eureka界面加入两个.png)
 
 ###### http://localhost/consumer/payment/get/31
 
