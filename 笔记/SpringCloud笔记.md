@@ -10,11 +10,11 @@
 
 ![什么是服务注册](photos/什么是服务注册.png)
 
-![Eureka和Dubbo架构对比](photos\Eureka和Dubbo架构对比.png)
+![Eureka和Dubbo架构对比](photos/Eureka和Dubbo架构对比.png)
 
 #### · Eureka两组件
 
-![Eureka两组件](photos\Eureka两组件.png)
+![Eureka两组件](photos/Eureka两组件.png)
 
 ### 单机Eureka构建步骤
 
@@ -100,7 +100,7 @@ cloud-eureka-server7001
 > ###### 1.X和2.X的对比说明
 >
 
-![1.X和2.X的对比说明](photos\1.X和2.X的对比说明.png)
+![1.X和2.X的对比说明](photos/1.X和2.X的对比说明.png)
 
 ##### 写YML
 
@@ -164,7 +164,7 @@ http://localhost:7001/
 > ###### 1.X和2.X的对比说明
 >
 
-<img src="photos\1.X和2.X的对比说明client.png" alt="1.X和2.X的对比说明client" style="zoom:67%;" />
+<img src="photos/1.X和2.X的对比说明client.png" alt="1.X和2.X的对比说明client" style="zoom:67%;" />
 
 ##### 写YML
 
@@ -204,15 +204,15 @@ public class PaymentMain8001 {
 
 http://localhost:7001/
 
-<img src="photos\Eureka界面加入一个.png" alt="Eureka界面加入一个" style="zoom: 25%;" />
+<img src="photos/Eureka界面加入一个.png" alt="Eureka界面加入一个" style="zoom: 25%;" />
 
 ###### 微服务注册名配置说明
 
-<img src="photos\Eureka微服务注册名配置说明.png" alt="Eureka微服务注册名配置说明" style="zoom:50%;" />
+<img src="photos/Eureka微服务注册名配置说明.png" alt="Eureka微服务注册名配置说明" style="zoom:50%;" />
 
 ###### 自我保护机制
 
-<img src="photos\自我保护机制.png" alt="自我保护机制" style="zoom:33%;" />
+<img src="photos/自我保护机制.png" alt="自我保护机制" style="zoom:33%;" />
 
 #### · EurekaClient端
 
@@ -274,7 +274,7 @@ public class PaymentMain8001 {
 
 ###### eureka服务器
 
-![image-20201203182350669](photos\Eureka界面加入两个.png)
+![image-20201203182350669](photos/Eureka界面加入两个.png)
 
 ###### http://localhost/consumer/payment/get/31
 
@@ -282,7 +282,7 @@ public class PaymentMain8001 {
 
 #### Eureka集群原理说明
 
-![Eureka集群原理说明](photos\Eureka集群原理说明.png)
+![Eureka集群原理说明](photos/Eureka集群原理说明.png)
 
 #### EurekaServer集群环境构建步骤
 
@@ -296,7 +296,7 @@ public class PaymentMain8001 {
 
 找到C:\Windows\System32\drivers\etc路径下的hosts文件
 
-![hosts文件路径](photos\hosts文件路径.png)
+![hosts文件路径](photos/hosts文件路径.png)
 
 ###### 修改映射配置添加进hosts文件
 
@@ -306,7 +306,7 @@ public class PaymentMain8001 {
 
 ##### 写YML（以前单机）
 
-![image-20201203183537869](photos\Eureka单机yml.png)
+![image-20201203183537869](photos/Eureka单机yml.png)
 
 7001
 
@@ -378,7 +378,7 @@ service-url:
 
 ##### 写YML
 
-![以前单机yml](photos\以前单机yml.png)
+![以前单机yml](photos/以前单机yml.png)
 
 7001
 
@@ -420,7 +420,7 @@ eureka:
 
 找到C:\Windows\System32\drivers\etc路径下的hosts文件
 
-![hosts文件路径](photos\hosts文件路径.png)
+![hosts文件路径](photos/hosts文件路径.png)
 
 ###### 修改映射配置添加进hosts文件
 
@@ -434,11 +434,11 @@ eureka:
 
 ###### 8001
 
-![Eureka集群controller修改](photos\Eureka集群controller修改.png)
+![Eureka集群controller修改](photos/Eureka集群controller修改.png)
 
 ###### 8002
 
-![Eureka集群controller修改](photos\Eureka集群controller修改.png)
+![Eureka集群controller修改](photos/Eureka集群controller修改.png)
 
 #### 负载均衡
 
@@ -479,7 +479,7 @@ public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
 #### 主机名称：服务名称修改
 
-##### 当前问题![Eureka服务名称修改](photos\Eureka服务名称修改.png)
+##### 当前问题![Eureka服务名称修改](photos/Eureka服务名称修改.png)
 
 ##### loud-provider-payment8001
 
@@ -492,9 +492,9 @@ instance:
 
 效果
 
-![Eureka服务名称修改效果1](photos\Eureka服务名称修改效果1.png)
+![Eureka服务名称修改效果1](photos/Eureka服务名称修改效果1.png)
 
-![Eureka服务名称修改效果2](photos\Eureka服务名称修改效果2.png)
+![Eureka服务名称修改效果2](photos/Eureka服务名称修改效果2.png)
 
 #### 访问信息有ip信息提示
 
@@ -526,7 +526,7 @@ eureka:
 
 
 
-![Eureka访问信息有IP信息提示效果图](photos\Eureka访问信息有IP信息提示效果图.png)
+![Eureka访问信息有IP信息提示效果图](photos/Eureka访问信息有IP信息提示效果图.png)
 
 ### 服务发现Discovery
 
@@ -569,17 +569,17 @@ public Object discovery(){
 
 #### 故障现象
 
-![故障现象](photos\Eureka故障现象.png)
+![故障现象](photos/Eureka故障现象.png)
 
 #### 导致原因
 
-![Eureka自我保护机制原因](photos\Eureka自我保护机制原因.png)
+![Eureka自我保护机制原因](photos/Eureka自我保护机制原因.png)
 
-![Eureka自我保护模式](photos\Eureka自我保护模式.png)
+![Eureka自我保护模式](photos/Eureka自我保护模式.png)
 
-![image-20201208173232724](photos\Eureka自我保护机制.png)
+![image-20201208173232724](photos/Eureka自我保护机制.png)
 
-![image-20201208173324151](photos\Eureka自我保护机制2.png)
+![image-20201208173324151](photos/Eureka自我保护机制2.png)
 
 > 一句话：某时刻某一个微服务不可用了，Eureka不会立刻清理，依旧会对该微服务的信息进行保存
 
@@ -625,7 +625,7 @@ instance:
    lease-expiration-duration-in-seconds:  2
 ```
 
-![Eureka自我保护配置](photos\Eureka自我保护配置.png)
+![Eureka自我保护配置](photos/Eureka自我保护配置.png)
 
 ###### 测试
 
@@ -659,7 +659,7 @@ instance:
 
 > 为什么会出现这个技术？需要解决哪些问题？
 
-在微服务框架中，一个由客户端发起的请求在后端系统中会经过多个不同的服务节点调用来协同产生最后的请求结果，每一个前段请求都会形成一条复杂的分布式服务调用链路，链路中的任何一环出现高延时或错误都会引起整个请求最后的失败。![Sleuth问题](photos\Sleuth问题.png)
+在微服务框架中，一个由客户端发起的请求在后端系统中会经过多个不同的服务节点调用来协同产生最后的请求结果，每一个前段请求都会形成一条复杂的分布式服务调用链路，链路中的任何一环出现高延时或错误都会引起整个请求最后的失败。![Sleuth问题](photos/Sleuth问题.png)
 
 #### 是什么
 
@@ -669,7 +669,7 @@ Spring Cloud Sleuth提供了一套完整的服务跟踪的解决方案，在分�
 
 #### 解决
 
-![sleuth概述-解决](photos\sleuth概述-解决.png)
+![sleuth概述-解决](photos/sleuth概述-解决.png)
 
 ### 搭建链路监控步骤
 
@@ -687,7 +687,7 @@ zipkin-server-2.12.9.exec.jar
 
 java -jar zipkin-server-2.12.9-exec.jar
 
-![sleuth-zipkin运行](photos\sleuth-zipkin运行.png)
+![sleuth-zipkin运行](photos/sleuth-zipkin运行.png)
 
 ##### 运行控制台
 
@@ -697,11 +697,11 @@ http://localhost:9411/zipkin/
 
 表示一请求链路，一条链路通过Trace Id唯一标识，Span标识发起的请求信息，各span通过parent Id 关联起来
 
- ![sleuth完整的调用链路](photos\sleuth完整的调用链路2.png)
+ ![sleuth完整的调用链路](photos/sleuth完整的调用链路2.png)
 
 ##### **上图拆分**
 
-![image-20210118180058243](photos\sleuth5.png)
+![image-20210118180058243](photos/sleuth5.png)
 
 > **Trace:** 类似于树结构的Span集合，表示一条调用链路，存在唯一标识
 >
@@ -919,14 +919,14 @@ eureka:
 
 会出现以下界面
 
-![image-20210118180937978](photos\sleuth6.png)
+![image-20210118180937978](photos/sleuth6.png)
 
 **查看**
 
-![image-20210118181031416](photos\sleuth7.png)
+![image-20210118181031416](photos/sleuth7.png)
 
 **查看依赖关系**
 
 **原理**
 
-![image-20210118181134543](photos\sleuth-原理.png)
+![image-20210118181134543](photos/sleuth-原理.png)
